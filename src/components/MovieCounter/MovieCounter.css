@@ -1,0 +1,16 @@
+.MoviesCounterDisplayContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dadde1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.MoviesCounterDisplayText {
+  font-size: 18px;
+  font-weight: bold !important;
+  margin-right: 10px;
+}
