@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+# Tech assessment notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Time spent 4 hours 
 
-Currently, two official plugins are available:
+# Next steps: - 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Testing - functional unit tests on api calls / hooks / helpers and snapshot tests on components 
 
-## Expanding the ESLint configuration
+Reusable - Seperate the movie aspect from the code and create generic atomic components that can pass props in to alter text for movies 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Styling - Make the application responsive so it can be viewable on smaller devices 
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Error handling - Custom error handling for api calls
